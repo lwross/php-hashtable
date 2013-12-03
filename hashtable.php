@@ -1,5 +1,5 @@
 <?php
-define("HASHTABLESIZE",3);
+define("HASHTABLESIZE",100);
 
 $hashtable = array_fill(0,HASHTABLESIZE,null);
 $keys = array_fill(0,HASHTABLESIZE,array());
